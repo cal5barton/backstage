@@ -403,6 +403,9 @@ export const useTechDocsReaderDom = (entityRef: EntityName): Element | null => {
               width: auto !important;
               height: auto !important;
             }
+            .md-nav__icon svg {
+              margin: 0;
+            }
             .md-nav__icon:after {
               width: 20px !important;
               height: 20px !important;
@@ -490,7 +493,11 @@ export const useTechDocsReaderDom = (entityRef: EntityName): Element | null => {
 
               .md-sidebar--primary {
                 width: 10rem !important;
-                left: ${isPinned ? '242px' : '72px'} !important;
+                left: ${
+                  isPinned
+                    ? `calc(242px + ${theme.spacing(3)}px)`
+                    : `calc(72px + ${theme.spacing(3)}px)`
+                } !important;
               }
               .md-sidebar--secondary:not([hidden]) {
                 display: none;
