@@ -10749,6 +10749,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fastify/busboy@npm:^2.0.0":
+  version: 2.1.1
+  resolution: "@fastify/busboy@npm:2.1.1"
+  checksum: 42c32ef75e906c9a4809c1e1930a5ca6d4ddc8d138e1a8c8ba5ea07f997db32210617d23b2e4a85fe376316a41a1a0439fc6ff2dedf5126d96f45a9d80754fb2
+  languageName: node
+  linkType: hard
+
 "@fmvilas/pseudo-yaml-ast@npm:^0.3.1":
   version: 0.3.1
   resolution: "@fmvilas/pseudo-yaml-ast@npm:0.3.1"
@@ -39496,11 +39503,11 @@ __metadata:
   linkType: hard
 
 "undici@npm:^5.12.0, undici@npm:^5.8.0":
-  version: 5.19.1
-  resolution: "undici@npm:5.19.1"
+  version: 5.28.4
+  resolution: "undici@npm:5.28.4"
   dependencies:
-    busboy: ^1.6.0
-  checksum: 57ee94ee74d944faa41dbcb2faf4e0c90069708d3aaae860185884e51376b5d457728352a8396d69a3c9cb752b62ff99a19a664c5aacb7ee61cc488af499a01c
+    "@fastify/busboy": ^2.0.0
+  checksum: a8193132d84540e4dc1895ecc8dbaa176e8a49d26084d6fbe48a292e28397cd19ec5d13bc13e604484e76f94f6e334b2bdc740d5f06a6e50c44072818d0c19f9
   languageName: node
   linkType: hard
 
